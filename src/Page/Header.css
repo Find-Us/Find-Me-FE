@@ -1,0 +1,33 @@
+.link {
+    color: #F3B700;
+    text-decoration: none;
+    width: 170px;
+    height: 30px;
+    left: 875px;
+    top: 50px;
+
+    font-family: 'Dongle';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1px;
+
+}
+
+.link:hover {
+    color: #F3B700;
+}
+
+.logout-link {
+    background-color: white;
+    color: #FF9F1C;
+    border: 2.2px solid #FF9F1C;
+    border-radius: 61px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    align-self: center;
+
+}

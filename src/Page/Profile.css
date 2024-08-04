@@ -1,0 +1,158 @@
+
+
+.profile-section, .bookmark-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-align: left;
+}
+
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.username-level h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.username-level p {
+    margin: 5px 0 0;
+    color: #000; 
+}
+
+.introduction {
+    text-align: left;
+    margin-left: 70px;
+}
+
+
+.bookmark-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bookmark-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.bookmark-icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.bookmark-title {
+    flex: 1;
+    font-weight: bold;
+}
+
+.bookmark-details {
+    color: #000;
+    margin-left: 10px;
+}
+
+.bookmark-section h2 {
+    color: #000;
+    text-align: left;
+}
+
+.bookmark-list {
+    color: #000;
+    text-align: left; 
+}
+
+.bookmark-item {
+    text-align: left; 
+}
+
+.profile-section h2,
+.profile-info .username-level h3,
+.profile-info .username-level p {
+    color: #000; 
+    text-align: left; 
+    margin-top: 1px;
+}
+
+.profile-info {
+    display: flex; 
+    align-items: center; 
+}
+
+.profile-image {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.save-button, .edit-button {
+    background-color: #FF9F1C;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 2px solid #FF9F1C;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 30%;
+    margin-top: 10px;
+}
+
+.edit-button {
+    background-color: white;
+    color: #FF9F1C;
+}
+
+.save-button {
+    background-color: #FF9F1C;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #FF9F1C;
+    color: white;
+}
+
+.save-button:hover {
+    background-color: white;
+    color: #FF9F1C;
+}
+
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    appearance: none; 
+    border: 2px solid #000;
+    border-radius: 0; 
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.custom-checkbox:checked {
+    background-color: #FF9F1C;
+}
