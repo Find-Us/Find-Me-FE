@@ -1,0 +1,71 @@
+.FINDME{
+  display: flex;
+  font-family: 'Dongle';
+  font-size: 8.5vh;
+  color: #F3B700;
+  justify-content: center;
+}
+
+.backbtn{
+  display: flex;
+  justify-content: left;
+}
+
+.QButton3 {
+display: inline-block;
+box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+border-radius: 4vh; /* 둥근 모서리 */
+border: 0.6vh solid #222222; /* 테두리 */
+background-color: #FF9F1C; /* 배경색 */
+width: 100vh;
+height: 10vh;
+justify-content: center;
+text-align: center; /* 버튼 텍스트 중앙 정렬 */
+margin: 10vh 0vh 0vh 50vh; /* 기존 10vh에서 10vh 추가 */
+line-height: 10vh; /* 텍스트 수직 중앙 정렬을 위해 추가 */
+
+font-family: 'Inter';
+font-weight: bold;
+font-size: 4vh;
+color: #FFFFFF;
+padding-top: 1vh; /* 텍스트를 5px 아래로 이동 */
+display: inline-block; /* padding-top 적용을 위해 추가 */
+}
+
+.AButton3, .BButton3 {
+display: inline-block;
+box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+border-radius: 4vh; /* 둥근 모서리 */
+border: 0.6vh solid #222222; /* 테두리 */
+background-color: #F3BF70; /* 배경색 */
+width: 60vh;
+height: 10vh;
+justify-content: center;
+text-align: center; /* 버튼 텍스트 중앙 정렬 */
+font-family: 'Inter';
+font-weight: bold;
+font-size: 4vh;
+color: #FFFFFF;
+padding-top: 1vh; /* 텍스트를 1vh 아래로 이동 */
+line-height: 10vh; /* 텍스트 수직 중앙 정렬 */
+text-decoration: none; /* 밑줄 제거 */
+}
+
+.AButton3 {
+margin: 7vh 0vh 0vh 70vh; /* 기존 20vh에서 10vh 추가 */
+}
+
+.BButton3 {
+margin: 5vh 0vh 0vh 70vh; /* 기존 5vh에서 10vh 추가 */
+}
+
+.num {
+word-break: break-word; /* 텍스트 줄바꿈 처리 */
+font-family: 'Inter'; /* 폰트 설정 */
+font-weight: bold; /* 폰트 굵기 */
+font-size: 3vh; /* 폰트 크기 */
+line-height: 2.726; /* 줄 높이 */
+color: #000000; /* 글자 색상 */
+text-align: center;
+margin-top: 5vh; /* 추가된 10vh */
+}

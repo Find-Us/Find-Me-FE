@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+  
+  .FINDME {
+    display: flex;
+    font-family: 'Dongle';
+    font-size: 8.5vh;
+    color: #F3B700;
+    justify-content: center;
+  }
+  
+  .backbtn {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .leftContainer, .rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Book {
+    display: inline-block;
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222;
+    border-radius: 4vh;
+    border: 0.6vh solid #222222;
+    background-color: #FF9F1C;
+    width: 30vh;
+    height: 8vh;
+    justify-content: center;
+    text-align: center;
+    margin: 0vh 0vh 2vh 0vh;
+    line-height: 8vh;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 4vh;
+    color: #FFFFFF;
+    padding-top: 1vh;
+    margin: -55vh 0vh 2vh 0vh;
+  }
+  
+  .recommendations {
+    display: flex;
+    gap: 5vh; /* Adjust the gap between the Recommend1 and Recommend2 */
+  }
+  
+  .Recommend1b, .Recommend2b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222;
+    border-radius: 4vh;
+    border: 0.6vh solid #222222;
+    background-color: #FFBF69;
+    width: 40vh;
+    height: 35vh;
+    justify-content: flex-start;
+    text-align: center;
+    line-height: 10vh;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 4vh;
+    color: #FFFFFF;
+    padding-top: 1vh;
+    position: relative;
+  }
+  
+  .Title1b, .Title2b {
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222;
+    border-radius: 4vh;
+    border: 0.6vh solid #222222;
+    background-color: #FF9F1C;
+    width: 20vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 10vh;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 3vh;
+    color: #FFFFFF;
+    margin-bottom: 25vh;
+  }
+  
+  .gotoMain2, .saveMyPage2 {
+  box-shadow: 0.5vh 0.5vh 0vh 0vh #222222;
+  border-radius: 4vh;
+  border: 0.6vh solid #222222;
+  background-color: #F3B700;
+  width: 35vh;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 6vh;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 3vh;
+  color: #FFFFFF;
+  text-decoration: none; /* Remove underline */
+  margin-top: 6vh;
+}

@@ -1,0 +1,135 @@
+.FINDME {
+  display: flex;
+  font-family: 'Dongle';
+  font-size: 8.5vh;
+  color: #F3B700;
+  justify-content: center;
+}
+
+.backbtn {
+  display: flex;
+  justify-content: left;
+}
+
+.Content {
+  display: inline-block;
+  box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+  border-radius: 4vh; /* 둥근 모서리 */
+  border: 0.6vh solid #222222; /* 테두리 */
+  background-color: #FF9F1C; /* 배경색 */
+  width: 40vh;
+  height: 10vh;
+  justify-content: center;
+  text-align: center; /* 버튼 텍스트 중앙 정렬 */
+  margin: 0vh 0vh 0vh 80vh;
+  line-height: 10vh; /* 텍스트 수직 중앙 정렬을 위해 추가 */
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 4vh;
+  color: #FFFFFF;
+  padding-top: 1vh; /* 텍스트를 5px 아래로 이동 */
+  display: inline-block; /* padding-top 적용을 위해 추가 */
+}
+
+.MovieButton {
+  display: inline-block;
+  box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+  border-radius: 4vh; /* 둥근 모서리 */
+  border: 0.6vh solid #222222; /* 테두리 */
+  background-color: #F3BF70; /* 배경색 */
+  width: 30vh;
+  height: 10vh;
+  justify-content: center;
+  text-align: center; /* 버튼 텍스트 중앙 정렬 */
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 4vh;
+  color: #FFFFFF;
+  padding-top: 1vh; /* 텍스트를 1vh 아래로 이동 */
+  line-height: 10vh; /* 텍스트 수직 중앙 정렬 */
+  text-decoration: none; /* 밑줄 제거 */
+  margin: 7vh 0vh 0vh 65vh; /* 왼쪽으로 5vh 이동 */
+}
+
+.AllButton {
+  display: inline-block;
+  box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+  border-radius: 4vh; /* 둥근 모서리 */
+  border: 0.6vh solid #222222; /* 테두리 */
+  background-color: #F3BF70; /* 배경색 */
+  width: 30vh;
+  height: 10vh;
+  justify-content: center;
+  text-align: center; /* 버튼 텍스트 중앙 정렬 */
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 4vh;
+  color: #FFFFFF;
+  padding-top: 1vh; /* 텍스트를 1vh 아래로 이동 */
+  line-height: 10vh; /* 텍스트 수직 중앙 정렬 */
+  text-decoration: none; /* 밑줄 제거 */
+  margin: -30vh 0vh 0vh 105vh; /* 왼쪽으로 5vh 이동 */
+  position: relative; /* 상대 위치 설정 */
+  top: -6vh; /* 10vh 위로 이동 */
+}
+
+.SongButton {
+  display: inline-block;
+  box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+  border-radius: 4vh; /* 둥근 모서리 */
+  border: 0.6vh solid #222222; /* 테두리 */
+  background-color: #FF9F1C; /* 배경색 */
+  width: 30vh;
+  height: 10vh;
+  justify-content: center;
+  text-align: center; /* 버튼 텍스트 중앙 정렬 */
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 4vh;
+  color: #FFFFFF;
+  padding-top: 1vh; /* 텍스트를 1vh 아래로 이동 */
+  line-height: 10vh; /* 텍스트 수직 중앙 정렬 */
+  text-decoration: none; /* 밑줄 제거 */
+  margin: 6vh 0vh 0vh 65vh; /* 왼쪽으로 5vh 이동 */
+}
+
+.BookButton {
+  display: inline-block;
+  box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+  border-radius: 4vh; /* 둥근 모서리 */
+  border: 0.6vh solid #222222; /* 테두리 */
+  background-color: #FF9F1C; /* 배경색 */
+  width: 30vh;
+  height: 10vh;
+  justify-content: center;
+  text-align: center; /* 버튼 텍스트 중앙 정렬 */
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 4vh;
+  color: #FFFFFF;
+  padding-top: 1vh; /* 텍스트를 1vh 아래로 이동 */
+  line-height: 10vh; /* 텍스트 수직 중앙 정렬 */
+  text-decoration: none; /* 밑줄 제거 */
+  margin: -40vh 0vh 0vh 105vh; /* 왼쪽으로 5vh 이동 */
+  position: relative; /* 상대 위치 설정 */
+  top: -6vh; /* 10vh 위로 이동 */
+}
+
+.rleftVectorrr {
+  position: absolute;
+  top: 0;
+  right: 45vh;
+  width: 15vh;
+  height: 13vh;
+  margin: 5vh;
+}
+
+.rrightVectorrr {
+  position: absolute;
+  top: 5vh;
+  right: 20vh;
+  width: 20vh;
+  height: 17vh;
+  margin: 10vh;
+}
+
