@@ -1,0 +1,146 @@
+
+.FINDME{
+    display: flex;
+    font-family: 'Dongle';
+    font-size: 8.5vh;
+    color: #F3B700;
+    justify-content: center;
+}
+
+.backbtn{
+    display: flex;
+    justify-content: left;
+}
+
+/* 부모 컨테이너 스타일 */
+.leftContainer {
+    position: relative; /* 자식 요소들의 위치 기준 설정 */
+    height: 200px; /* 원하는 높이로 조정 */
+    width: 100%; /* 원하는 너비로 조정 */
+}
+
+/* 왼쪽 하단의 첫 번째 벡터 */
+.lleftVector {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    bottom: 8vh; /* 부모 컨테이너의 아래쪽에 배치 */
+    left: 48vh; /* 부모 컨테이너의 왼쪽에 배치 */
+    width: 18vh; /* 원하는 너비로 조정 */
+    height: 15vh; /* 원하는 높이로 조정 */
+}
+
+/* 왼쪽 하단의 두 번째 벡터 */
+.lrightVector {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    bottom: 0vh; /* 부모 컨테이너의 아래쪽에 배치 */
+    left: 63vh; /* 부모 컨테이너의 왼쪽에서 12vh 떨어진 위치에 배치 (lleftVector보다 오른쪽) */
+    width: 15vh; /* 원하는 너비로 조정 */
+    height: 13vh; /* 원하는 높이로 조정 */
+}
+
+
+  
+/* .middleContainer 스타일 수정 */
+.middleContainer {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 자식 요소 배치 */
+    justify-content: center; /* 수직 중앙 정렬 */
+    align-items: center; /* 수평 중앙 정렬 */
+    height: 100vh; /* 뷰포트 전체 높이 */
+    width: 100%; /* 전체 너비 */
+    margin: 0; /* 기본 마진 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+    box-sizing: border-box; /* 패딩과 테두리가 요소의 총 너비와 높이에 포함되도록 설정 */
+}
+
+
+.whaleimg {
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    margin: 0vh 0 0 150vh; /* 요소를 자동으로 가운데 정렬 */
+}
+
+.TestButtonj {
+    display: inline-block;
+    font-size: 3.5vh;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: bold;
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+    border-radius: 4vh; /* 둥근 모서리 */
+    border: 0.6vh solid #222222; /* 테두리 */
+    background-color: #FF9F1C; /* 배경색 */
+    width: 35vh;
+    height: 8vh;
+    justify-content: center;
+    text-align: center; /* 버튼 텍스트 중앙 정렬 */
+    margin: 2vh 0vh 0vh 83vh;
+    line-height: 10vh; /* 텍스트 수직 중앙 정렬을 위해 추가 */
+  }
+
+  .JoyButton {
+    display: inline-block;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 3.5vh;
+    color: #FFFFFF;
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222; /* 그림자 */
+    border-radius: 4vh; /* 둥근 모서리 */
+    border: 0.6vh solid #222222; /* 테두리 */
+    background-color: #F3BF70; /* 배경색 */
+    width: 18vh;
+    height: 8vh;
+    justify-content: center;
+    text-align: center; /* 버튼 텍스트 중앙 정렬 */
+    margin: 2vh 0vh 0vh 92vh;
+    line-height: 10vh; /* 텍스트 수직 중앙 정렬을 위해 추가 */
+  }
+
+  .RecommendButtonj {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 3.5vh; /* 한 줄로 통일 */
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex; /* flexbox 사용 */
+    align-items: center; /* 세로축 중앙 정렬 */
+    justify-content: center; /* 가로축 중앙 정렬 */
+    box-shadow: 0.5vh 0.5vh 0 0 #222222; /* 그림자 */
+    border-radius: 4vh; /* 둥근 모서리 */
+    border: 0.6vh solid #222222; /* 테두리 */
+    background-color: #FF9F1C; /* 배경색 */
+    width: 45vh;
+    height: 8vh;
+    margin: 5vh 0 0 78vh; /* 가로축 중앙 정렬 */
+}
+
+
+/* 부모 컨테이너 스타일 */
+.rightContainer {
+    position: relative; /* 자식 요소들의 위치 기준 설정 */
+    width: 100%; /* 부모 컨테이너의 너비 설정 */
+    height: 200px; /* 부모 컨테이너의 높이 설정 (필요에 따라 조정) */
+    background-color: #f0f0f0; /* 배경색으로 확인 */
+    display: flex;
+    justify-content: flex-end; /* 자식 요소들을 오른쪽으로 정렬 */
+    align-items: flex-start; /* 자식 요소들을 상단으로 정렬 */
+}
+
+/* 자식 요소 스타일 */
+.rleftVector {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    top: 0; /* 부모 컨테이너의 상단에 배치 */
+    right: 80px; /* 부모 컨테이너의 오른쪽에서 80px 떨어진 위치에 배치 (rrightVector보다 더 왼쪽) */
+    width: 15vh; /* 원하는 너비로 조정 */
+    height: 13vh; /* 원하는 높이로 조정 */
+    margin: 10vh 33vh; /* 상단과 오른쪽에 여백 설정 (필요에 따라 조정) */
+}
+
+.rrightVector {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    top: 0; /* 부모 컨테이너의 상단에 배치 */
+    right: 0; /* 부모 컨테이너의 오른쪽에 배치 (rleftVector보다 더 오른쪽) */
+    width: 20vh; /* 원하는 너비로 조정 */
+    height: 17vh; /* 원하는 높이로 조정 */
+    margin: 20vh 25vh; /* 상단과 오른쪽에 여백 설정 (필요에 따라 조정) */
+}
