@@ -3,11 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 
-import Main from './Page/Main';
-import Community from './Page/Community';
-import Login from './Page/Login';
-import Signup from './Page/Signup';
-import Profile from './Page/Profile';
+import Main from './Components/TestPage/Main';
 
 import TestHome from './Components/TestPage/TestHome'; 
 import TestResult from './Components/TestPage/TestResult';
@@ -35,8 +31,6 @@ import ReMovie from './Components/TestPage/ReMovie';
 import ReSong from './Components/TestPage/ReSong';
 import ReBook from './Components/TestPage/ReBook';
 import ReAll from './Components/TestPage/ReAll';
-
-import Not_Found from './Page/Not_Found';
 
 function App() {
   return (
@@ -78,11 +72,6 @@ function App() {
           <Route path='/ReBook' element={<ReBook />} />
           <Route path='/ReAll' element={<ReAll />} />
 
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/community" element={<Community />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="*" element={<Not_Found />} />
         </Routes>
       </BrowserRouter>
     </div>

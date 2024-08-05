@@ -68,3 +68,19 @@
     color: #000000; /* 글자 색상 */
     text-align: center;
   }
+
+  .lleftVectortp12 {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    bottom: 22vh; /* 부모 컨테이너의 아래쪽에 배치 */
+    left: 33vh; /* 부모 컨테이너의 왼쪽에 배치 */
+    width: 23vh; /* 원하는 너비로 조정 */
+    height: 20vh; /* 원하는 높이로 조정 */
+  }
+  
+  .lrightVectortp12 {
+    position: absolute;
+    bottom: 13vh;
+    left: 52vh;
+    width: 18vh;
+    height: 15vh;
+  }

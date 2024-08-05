@@ -133,3 +133,20 @@
   margin: 10vh;
 }
 
+.lleftVectorre {
+  position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+  bottom: 15vh; /* 부모 컨테이너의 아래쪽에 배치 */
+  left: 35vh; /* 부모 컨테이너의 왼쪽에 배치 */
+  width: 24vh; /* 원하는 너비로 조정 */
+  height: 20vh; /* 원하는 높이로 조정 */
+}
+
+/* 왼쪽 하단의 두 번째 벡터 */
+.lrightVectorre {
+  position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+  bottom: 5vh; /* 부모 컨테이너의 아래쪽에 배치 */
+  left: 54vh; /* 부모 컨테이너의 왼쪽에서 12vh 떨어진 위치에 배치 (lleftVector보다 오른쪽) */
+  width: 18vh; /* 원하는 너비로 조정 */
+  height: 15vh; /* 원하는 높이로 조정 */
+}
+

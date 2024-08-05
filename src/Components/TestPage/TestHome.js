@@ -18,8 +18,8 @@ export default function TestHome() {
         </div>
 
         <div clasName="leftContainer">
-          <img className="lleftVector" width="150" height="140" src={v1}></img>
-          <img className="lrightVector1" width="150" height="149" src={v2}></img>
+          <img className="lleftVectorth" width="150" height="140" src={v1}></img>
+          <img className="lrightVectorth" width="150" height="149" src={v2}></img>
         </div>
 
         <div clasName="middleContainer">
@@ -33,8 +33,8 @@ export default function TestHome() {
         </div>
 
         <div clasName="rightContainer">
-          <img className="rleftVector" width="168" height="167" src={v3}></img>
-          <img className="rrightVector" width="300" height="200" src={v4}></img>
+          <img className="rleftVectorth" width="168" height="167" src={v3}></img>
+          <img className="rrightVectorth" width="300" height="200" src={v4}></img>
         </div>
       </div>
   )

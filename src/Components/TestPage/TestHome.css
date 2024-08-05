@@ -20,21 +20,21 @@
 }
 
 /* 왼쪽 하단의 첫 번째 벡터 */
-.lleftVector {
+.lleftVectorth {
     position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
-    bottom: 8vh; /* 부모 컨테이너의 아래쪽에 배치 */
-    left: 48vh; /* 부모 컨테이너의 왼쪽에 배치 */
-    width: 18vh; /* 원하는 너비로 조정 */
-    height: 15vh; /* 원하는 높이로 조정 */
+    bottom: 15vh; /* 부모 컨테이너의 아래쪽에 배치 */
+    left: 38vh; /* 부모 컨테이너의 왼쪽에 배치 */
+    width: 23vh; /* 원하는 너비로 조정 */
+    height: 20vh; /* 원하는 높이로 조정 */
 }
 
 /* 왼쪽 하단의 두 번째 벡터 */
-.lrightVector1 {
+.lrightVectorth {
     position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
-    bottom: 8vh; /* 부모 컨테이너의 아래쪽에 배치 */
-    left: 63vh; /* 부모 컨테이너의 왼쪽에서 12vh 떨어진 위치에 배치 (lleftVector보다 오른쪽) */
-    width: 15vh; /* 원하는 너비로 조정 */
-    height: 13vh; /* 원하는 높이로 조정 */
+    bottom: 5vh; /* 부모 컨테이너의 아래쪽에 배치 */
+    left: 58vh; /* 부모 컨테이너의 왼쪽에서 12vh 떨어진 위치에 배치 (lleftVector보다 오른쪽) */
+    width: 16vh; /* 원하는 너비로 조정 */
+    height: 15vh; /* 원하는 높이로 조정 */
 }
 
 
@@ -129,19 +129,19 @@
 }
 
 /* 자식 요소 스타일 */
-.rleftVector {
+.rleftVectorth {
     position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
     top: 0; /* 부모 컨테이너의 상단에 배치 */
-    right: 80px; /* 부모 컨테이너의 오른쪽에서 80px 떨어진 위치에 배치 (rrightVector보다 더 왼쪽) */
+    right: 18vh; /* 부모 컨테이너의 오른쪽에서 80px 떨어진 위치에 배치 (rrightVector보다 더 왼쪽) */
     width: 15vh; /* 원하는 너비로 조정 */
     height: 13vh; /* 원하는 높이로 조정 */
     margin: 10vh 33vh; /* 상단과 오른쪽에 여백 설정 (필요에 따라 조정) */
 }
 
-.rrightVector {
+.rrightVectorth {
     position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
     top: 0; /* 부모 컨테이너의 상단에 배치 */
-    right: 0; /* 부모 컨테이너의 오른쪽에 배치 (rleftVector보다 더 오른쪽) */
+    right: 10vh; /* 부모 컨테이너의 오른쪽에 배치 (rleftVector보다 더 오른쪽) */
     width: 20vh; /* 원하는 너비로 조정 */
     height: 17vh; /* 원하는 높이로 조정 */
     margin: 20vh 25vh; /* 상단과 오른쪽에 여백 설정 (필요에 따라 조정) */

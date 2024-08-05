@@ -16,8 +16,8 @@ export default function TestPage10() {
         </div>
 
         <div clasName="leftContainer">
-          <img className="lleftVector" width="150" height="140" src={v1}></img>
-          <img className="lrightVector" width="150" height="149" src={v2}></img>
+          <img className="lleftVectortp" width="150" height="140" src={v1}></img>
+          <img className="lrightVectortp" width="150" height="149" src={v2}></img>
         </div>
 
         <div clasName="middleContainer">

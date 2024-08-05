@@ -16,8 +16,8 @@ export default function ReMovie() {
         </div>
 
         <div clasName="leftContainer">
-          <img className="lleftVector" width="150" height="140" src={v1}></img>
-          <img className="lrightVector" width="150" height="149" src={v2}></img>
+          <img className="lleftVectorrc" width="150" height="140" src={v1}></img>
+          <img className="lrightVectorrc" width="150" height="149" src={v2}></img>
         </div>
 
         <div className="middleContainer">
@@ -40,7 +40,7 @@ export default function ReMovie() {
       </div>
 
         <div clasName="rightContainer">
-          <img className="rleftVector" width="168" height="167" src={v3}></img>
+          <img className="rleftVectorall" width="168" height="167" src={v3}></img>
           <img className="rrightVectorall" width="300" height="200" src={v4}></img>
         </div>
       </div>

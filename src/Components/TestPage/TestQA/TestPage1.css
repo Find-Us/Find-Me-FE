@@ -70,6 +70,23 @@
   margin-top: 5vh; /* 추가된 10vh */
 }
 
+/* 왼쪽 하단의 첫 번째 벡터 */
+.lleftVectortp {
+  position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+  bottom: 11vh; /* 부모 컨테이너의 아래쪽에 배치 */
+  left: 45vh; /* 부모 컨테이너의 왼쪽에 배치 */
+  width: 25vh; /* 원하는 너비로 조정 */
+  height: 20vh; /* 원하는 높이로 조정 */
+}
+
+.lrightVectortp {
+  position: absolute;
+  bottom: 2vh;
+  left: 63vh;
+  width: 18vh;
+  height: 15vh;
+}
+
   
   
 

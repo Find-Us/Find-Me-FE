@@ -1,0 +1,244 @@
+h5 {
+    color: #FF9F1C;
+    font-family: 'Dongle', sans-serif;
+    font-size: 5vh;
+    margin-bottom: 20px;
+    margin-top: 0px; 
+}
+
+.title {
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+    font-size: 15vh;
+    letter-spacing: 0.5px;
+    line-height: 0.9;
+    color: #FF9F1C;
+    white-space: nowrap;
+}
+
+h3 {
+    color: #FFBF69;
+
+}
+
+
+.msubtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+    letter-spacing: 0.5px;
+    line-height: 5vh;
+    color: #FFBF69;
+    white-space: nowrap;
+    margin-top: -1vh; /* 2vh 위로 이동 */
+    margin-bottom: 20px;
+}
+
+
+/*로그인 유무에 따라 달라지는 위치와 디자인 코드*/
+
+/*버튼*/
+
+.button-container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 74%;
+    right: 25.6%;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 60%;
+    left: 33%;
+}
+
+.nbutton_test {
+    background-color: #FF9F1C;
+    color: white;
+    border: 5px solid #222222;
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222;
+    border-radius: 61px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px;
+    font-weight: bold;
+    height: 25px;
+    justify-content: center;
+}
+
+.ybutton_test {
+    background-color: #FF9F1C;
+    color: white;
+    border: 5px solid #222222;
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222;;
+    border-radius: 61px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px;
+    font-weight: bold;
+    height: 25px;
+    justify-content: center;
+}
+
+.nbutton_log{
+    background-color: white;
+    color: #FF9F1C;
+    border: 5px solid #222222;
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222;;
+    border-radius: 61px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px;
+    font-weight: bold;
+    height: 25px;
+    justify-content: center;
+}
+
+.ybutton_com {
+    background-color: white;
+    color: #FF9F1C;
+    border: 5px solid #222222;
+    box-shadow: 0.5vh 0.5vh 0vh 0vh #222222;;
+    border-radius: 61px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+    height: 25px;
+    justify-content: center;
+}
+
+.nbutton_log:hover, .nbutton_test:hover {
+    background-color: #FFBF69;
+}
+
+.loginstyle {
+    position: absolute;
+    top: 50%;
+    left: 66.67%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 20px;
+    color: #FF9F1C;
+}
+
+.notloginstyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+
+.image {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+}
+
+.logged-in.draw1 {
+    top: 7%;
+    left: 24%;
+}
+.not-logged-in.draw1 {
+    top: 40%;
+    left: 5%;
+}
+
+.logged-in.draw2 {
+    bottom: 70%;
+    left: 4%;
+}
+.not-logged-in.draw2 {
+    top: 55%;
+    left: 23%;
+    width: 130px;
+    height: 130px;
+}
+
+.logged-in.draw3 {
+    top: 37%;
+    left: 8%;
+}
+.not-logged-in.draw3 {
+    bottom: 87%;
+    left: 73%;
+    width: 130px;
+    height: 130px;
+}
+
+.logged-in.draw4 {
+    top: 44%;
+    left: 30%;
+    width: 200px;
+    height: 200px;
+}
+.not-logged-in.draw4 {
+    bottom: 77%;
+    right: 4%;
+    width: 130px;
+    height: 130px;
+}
+
+
+.lleftVector {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    bottom: 20vh; /* 부모 컨테이너의 아래쪽에 배치 */
+    left: 35vh; /* 부모 컨테이너의 왼쪽에 배치 */
+    width: 25vh; /* 원하는 너비로 조정 */
+    height: 23vh;
+}
+
+/* 왼쪽 하단의 두 번째 벡터 */
+.lrightVector1 {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    bottom: 22vh; /* 부모 컨테이너의 아래쪽에 배치 */
+    left: 55vh; /* 부모 컨테이너의 왼쪽에서 12vh 떨어진 위치에 배치 (lleftVector보다 오른쪽) */
+    width: 20vh; /* 원하는 너비로 조정 */
+    height: 18vh; /* 원하는 높이로 조정 */
+}
+
+
+/* 자식 요소 스타일 */
+.rleftVector {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    top: -5vh; /* 부모 컨테이너의 상단에 배치 */
+    right: -10vh; /* 부모 컨테이너의 오른쪽에서 80px 떨어진 위치에 배치 (rrightVector보다 더 왼쪽) */
+    width: 23vh; /* 원하는 너비로 조정 */
+    height: 18vh; /* 원하는 높이로 조정 */
+    margin: 10vh 33vh; /* 상단과 오른쪽에 여백 설정 (필요에 따라 조정) */
+}
+
+.rrightVector {
+    position: absolute; /* 부모 컨테이너를 기준으로 절대 위치 설정 */
+    top: 3vh; /* 부모 컨테이너의 상단에 배치 */
+    right: -13vh; /* 부모 컨테이너의 오른쪽에 배치 (rleftVector보다 더 오른쪽) */
+    width: 18vh; /* 원하는 너비로 조정 */
+    height: 13vh; /* 원하는 높이로 조정 */
+    margin: 20vh 25vh; /* 상단과 오른쪽에 여백 설정 (필요에 따라 조정) */
+}
+
+.FINDME{
+    display: flex;
+    font-family: 'Dongle';
+    font-size: 8.5vh;
+    color: #F3B700;
+    justify-content: center;
+}
